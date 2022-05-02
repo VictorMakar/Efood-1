@@ -4,6 +4,6 @@ food delivery site
 
 Made by:
 
-Viktor Makarevich
-Nikita Novik
-Dmitry Butor
+Viktor Makarevich,
+Nikita Novik,
+Dmitry Butor.
