@@ -1,9 +1,2 @@
-# Efood
-food delivery site
-
-
-Made by:
-
-Viktor Makarevich,
-Nikita Novik,
-Dmitry Butor.
+# efoodvictor
+сайт доставки еды. Делают Виктор Макаревич, Никита Новик, Дима Бутор

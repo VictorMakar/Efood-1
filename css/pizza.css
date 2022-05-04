@@ -1,0 +1,726 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button-color{
+    background-color: #e79b83;;
+    border: 3px solid #FF7A50;
+}
+
+header h1{
+    color: #363853;
+    opacity: 0.8;
+}
+
+.filter div h3, p{
+    color: #363853;
+}
+
+.catalog div p{
+    color: #363853;
+}
+
+.prices div p{
+    color: #363853;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #efefef;
+}
+
+
+.container{
+    max-width: 1231px;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.manufacturer2 img{
+    margin: 15px 0px 15px 0px;
+}
+
+.h3-dodo{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+}
+
+.h3-dominos{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 5px;
+    right: 17px;
+
+}
+
+.company-name{
+    width: 100%;
+    height: 100%;
+}
+
+.h3-tempo{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 35px;
+}
+
+.dollar-img{
+    margin-right: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+.filter  div  p{
+    font-family: 'Outfit', sans-serif;
+}
+
+.line{
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.line3{
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.line2{
+    border: 1px solid #fff;
+    height: 1600px;
+    position: relative;
+    bottom: 21px;
+}
+
+header h1{
+    color: #333;
+    font-size: 45px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.manufacturer{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.manufacturer button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.manufacturer > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.manufacturer > div > button{
+    margin-right: 10px;
+}
+
+.manufacturer h3{
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+}
+
+.all-variants{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 135px;
+    height: 30px;
+    margin-left: 20px;
+    color: #363853;
+}
+
+.all-variants p{
+    margin-left: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.price{
+    width: 200px;
+    margin-top: 40px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+    
+}
+
+.price h3{
+    font-weight: lighter;
+}
+
+
+.price-ot{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 70px;
+    height: 30px;
+}
+
+.price-ot p{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.burger-king{
+    margin-left: 10px;
+}
+
+.price-do p{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.price-do{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.price2{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px
+}
+
+.money{
+    position: relative;
+    top: 22px;
+    right: 80px;
+}
+
+.beef h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.chicken h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.turkey h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.composition{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.composition h3{
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+}
+
+.composition > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.composition button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.composition img{
+    margin-left: 10px;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.discount-flex{
+    display: flex;
+    align-items: center;
+}
+
+.discount h4{
+    margin-right: 20px;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px 0px 10px 0px;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.first-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 40px 20px 40px 20px;
+}
+
+.first-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853; 
+    margin-left: 10px;
+}
+
+.first-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.second-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 20px 40px 20px;
+    border-radius: 50px;
+}
+
+.second-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853; 
+    margin-left: 10px;
+}
+
+.second-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.third-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 39px 20px 39px 20px;
+    border-radius: 50px;
+}
+
+.third-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853;
+    margin-left: 10px;
+}
+
+.third-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.fourth-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 39px 20px 39px 20px;
+    border-radius: 50px;
+}
+
+.fourth-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.fourth-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853; 
+    margin-left: 10px;
+}
+
+.fifth-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 39px 20px 39px 20px;
+    border-radius: 50px;
+}
+
+.fifth-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.fifth-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853; 
+    margin-left: 10px;
+}
+
+.six-pizza{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 39px 20px 39px 20px;
+    border-radius: 50px;
+}
+
+.six-pizza p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+}
+
+.six-pizza h2{
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #363853; 
+    margin-left: 10px; 
+}
+
+.discription{
+    width: 400px;
+}
+
+.catalog > div{
+    margin-bottom: 40px;
+}
+
+.catalog div{
+    height: 230px;
+}
+
+.prices > div{
+    margin-bottom: 40px;
+    height: 230px;
+}
+
+.first-price{
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 37.5px 0px 37.5px 0px;
+}
+
+.second-price{
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 37.5px 0px 37.5px 0px;
+}
+
+.second-price p{
+    text-align: center;
+}
+
+.third-price{
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 37.5px 0px 37.5px 0px;
+}
+
+.third-price p{
+    text-align: center;
+}
+
+.fourth-price{
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 37.5px 0px 37.5px 0px;
+}
+
+.fourth-price p{
+    text-align: center;
+}
+
+.add-to-cart:hover{
+    cursor: pointer;
+}
+
+.add-to-cart{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.burger-price{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-price p{
+    text-align: center;
+}
+
+.cart{
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 70px;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.cart2{
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 70px;
+    width: 400px;
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 16px;
+    color: #FF7A50;
+}
+
+
+.header_menu span{
+    font-size: 20px;
+    position: fixed;
+    top: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #363853;
+}
+
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.500);
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-modal{
+    width: 60%;
+    height: 80vh;
+    background-color: #efefef;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.none{
+    display: none;
+}
+
+.cheeseburger-image{
+    width: 320px;
+    height: 32  0px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+}
+
+.cheeseburger-image img{
+    margin-top: 40px;
+}
+
+.flex-wrapper2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrapper2 h1{
+    font-size: 40px;
+    margin-right: 150px;
+    color: #FF7A50;
+}
+
+.kDh{
+    margin-left: 20px;
+    font-weight: lighter;
+    font-family: 'Outfit', sans-serif;
+}
+
+.composition2{
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 420px;
+    margin-top: 20px;
+    border: 3px solid #FF7A50;
+    font-family: 'Outfit', sans-serif;
+}
+
+.composition2-h1{
+    margin-left: 100px;
+    font-weight: lighter;
+}
+
+.composition3-h1{
+    margin-left: 120px;
+    font-weight: lighter;
+}
+
+.discription2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.composition3 p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.composition2 ul, li, p, h1, h3{
+    color: #363853;
+}
+
+.kDh{
+    font-size: 20px;
+}
+
+.calories{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.add-to-cart2{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 400px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.add-to-cart2 h1{
+    color: #FF7A50;
+    font-weight: lighter;
+}
+
+@media (max-width: 1920px){
+    .container{
+        max-width: 1400px
+    }
+
+    .container-modal{
+        width: 45%;
+        height: 600px;
+    }
+
+    .header_menu span{
+        top: 165px;
+    }
+}
+
+
+@media (max-width: 1360px){
+    .container{
+        width: 1231px;
+    }
+}
+
+
+
+
+
+
+

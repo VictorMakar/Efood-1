@@ -1,0 +1,2507 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.button-color{
+    background-color: #e79b83;;
+    border: 3px solid #FF7A50;
+}
+
+header h1{
+    color: #363853;
+    opacity: 0.8;
+}
+
+.filter div h3, p{
+    color: #363853;
+}
+
+.catalog div p{
+    color: #363853;
+}
+
+
+
+.prices div p{
+    color: #363853;
+}
+
+
+.prices > div{
+    margin-bottom: 40px;
+    height: 230px;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #efefef;
+}
+
+
+.container{
+    max-width: 1231px;
+    margin: auto;
+}
+
+.mcdonalds{
+    cursor: pointer;
+}
+
+.h3-mcdonalds{
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+.h3-burger-king{
+    font-size: 25px;
+    margin-top: 18px;
+    margin-left: 9px;
+}
+
+.dollar-img{
+    margin-right: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+.filter  div  p{
+    font-family: 'Rubik', sans-serif;
+}
+
+.line{
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.line3{
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.line2{
+    border: 1px solid #fff;
+    height: 1600px;
+    position: relative;
+    bottom: 21px;
+}
+
+header h1{
+    color: #333;
+    font-size: 45px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.manufacturer{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.manufacturer button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.manufacturer > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.manufacturer > div > button{
+    margin-right: 10px;
+}
+
+.manufacturer h3{
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+
+.all-variants{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 135px;
+    height: 30px;
+    margin-left: 20px;
+    color: #363853;
+    margin-top: 15px;
+
+}
+
+.all-variants p{
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.price{
+    width: 200px;
+    margin-top: 40px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+    
+}
+
+.price h3{
+    font-weight: lighter;
+}
+
+
+.price-ot{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 70px;
+    height: 30px;
+}
+
+.price-ot p{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.burger-king{
+    margin-left: 10px;
+}
+
+.price-do p{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.price-do{
+    border: 3px solid #FF7A50;
+    border-radius: 70px;
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.price2{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px
+}
+
+.money{
+    position: relative;
+    top: 22px;
+    right: 80px;
+}
+
+.beef h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.chicken h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.fish h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.composition{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.composition h3{
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+
+.composition > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.composition button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.composition img{
+    margin-left: 10px;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount button{
+    border: 3px solid #FF7A50;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.discount-flex{
+    display: flex;
+    align-items: center;
+}
+
+.discount h4{
+    margin-right: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px 10px 0px;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #FF7A50;
+    padding-left: 5px;
+}
+
+.discription{
+    width: 400px;
+}
+
+.catalog div{
+    margin-bottom: 40px;
+}
+
+.burger-font-style h2{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: #363853;
+    margin-left: 20px; 
+}
+
+.burger-font-style p{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    width: 350px;
+    margin: 20px 0px 0px 20px;
+}
+
+.cheeseburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding: 40px 0px 30px 40px;
+}
+
+.McDonalds-Cheeseburger{
+    display: flex;
+    width: 950px;
+    height: 270px;
+    justify-content: space-between;
+}
+
+.chickenburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-Chickenburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.hamburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-hamburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.bigmac{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-bigmac{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-cheeseburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-double-cheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.filet-o-fish{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-filet-o-fish{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.big-tasty{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-big-tasty{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.royal{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-royal{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.MacChicken{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-MacChicken{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.macchicken-premier{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-macchicken-premier{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.tripple-cheeseburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-tripple-cheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-filet-o-fish{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.McDonalds-double-filet-o-fish-cheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.McDonalds-Big-tasty-Three-cheese{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.Big-tasty-Three-cheese{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+
+
+
+
+/* KFC */
+
+
+
+
+.KFCcheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.cheeseburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger-junior{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger-junior{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger-junior-ostryy{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger-junior-ostryy{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCcheeseburger-de-luxe{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.cheeseburger-de-luxe{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshef-Tauer-Original{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shef-Tauer-Original{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshef-Tauer-Ostriy{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shef-Tauer-Ostriy{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger-ostriy{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger-ostriy{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger-de-lyuks-ostryy{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger-de-lyuks-ostryy{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCshefburger-de-lyuks-original{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shefburger-de-lyuks-original{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCdouble-shefburger-original{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-shefburger-original{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.KFCdouble-shefburger-osctriy{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-shefburger-osctriy{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+
+
+
+
+
+
+/* BK */
+
+
+
+.BK-whopper-junior{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.whopper-junior{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-cheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.cheeseburgerBK{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-whooper-junior-with-cheese{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.whooper-junior-with-cheese{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-hamburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.hamburgerBK{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-chedder-rodeo-hamburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.chedder-rodeo-hamburger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-shvedckiy-burger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.shvedckiy-burger{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-cheese-jo{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.cheese-jo{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-double-cheeseburger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-cheeseburger-bk{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-stakehouse{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.stakehouse{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-double-whopper-with-cheese{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-whopper-with-cheese{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-double-whopper{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.double-whopper{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-whopper-bbq{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.whopper-bbq{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-whopper-with-cheese{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.whopper-with-cheese{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-whopper{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.whopper{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-big-king{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.big-king{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-angus-shef{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.angus-shef{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-angus-shef-xl{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.angus-shef-xl{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-angus-teriyaki-grill{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.angus-teriyaki-grill{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-angus-teriyaki-grill-xl{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.angus-teriyaki-grill-xl{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-mozarella-king{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.mozarella-king{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-mozarella-king-xl{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.mozarella-king-xl{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-chicken-burger{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.chicken-burger-bk{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-grill-chicken-bbq{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.grill-chicken-bbq{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-cezar-king{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.cezar-king{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-chedder-rodeo-chicken{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.chedder-rodeo-chicken{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-chicken-king{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.chicken-king{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+.BK-mozarella-chicken{
+    display: flex;
+    width: 950px;
+    justify-content: space-between;
+}
+
+.mozarella-chicken{
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 40px 0px 30px 40px;
+    border-radius: 50px;
+    height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.McDonalds-Cheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-Cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-Chickenburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-Chickenburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-hamburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-hamburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-bigmac-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-bigmac-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-double-cheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-double-cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-filet-o-fish-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-filet-o-fish-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-big-tasty-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-big-tasty-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-royal-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-royal-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-MacChicken-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-MacChicken-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-macchicken-premier-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+
+.McDonalds-macchicken-premier-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-tripple-cheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-tripple-cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-double-filet-o-fish-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-double-filet-o-fish-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.McDonalds-Big-tasty-Three-cheese-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.McDonalds-Big-tasty-Three-cheese-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+/* KFC */
+
+.KFCcheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCcheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-junior-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshefburger-junior-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-junior-ostryy-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshefburger-junior-ostryy-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCcheeseburger-de-luxe-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCcheeseburger-de-luxe-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshef-Tauer-Original-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshef-Tauer-Original-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshef-Tauer-Ostriy-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshef-Tauer-Ostriy-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshefburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-ostriy-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCshefburger-ostriy-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-de-lyuks-ostryy-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+
+}
+
+.KFCshefburger-de-lyuks-ostryy-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCshefburger-de-lyuks-original-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+
+.KFCshefburger-de-lyuks-original-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCdouble-shefburger-original-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCdouble-shefburger-original-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.KFCdouble-shefburger-osctriy-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.KFCdouble-shefburger-osctriy-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+/* BK */
+
+.BK-whopper-junior-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-whopper-junior-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-cheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-whooper-junior-with-cheese-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-whooper-junior-with-cheese-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-hamburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-hamburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-chedder-rodeo-hamburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-chedder-rodeo-hamburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-shvedckiy-burger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-shvedckiy-burger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-cheese-jo-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-cheese-jo-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-double-cheeseburger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-double-cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-stakehouse-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-stakehouse-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-double-whopper-with-cheese-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-double-whopper-with-cheese-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-double-whopper-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-double-whopper-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-whopper-bbq-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-whopper-bbq-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-whopper-with-cheese-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-whopper-with-cheese-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-whopper-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-whopper-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-big-king-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-big-king-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-angus-shef-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;
+}
+
+.BK-angus-shef-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-angus-shef-xl-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;    
+}
+
+.BK-angus-shef-xl-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-angus-teriyaki-grill-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px;   
+}
+
+.BK-angus-teriyaki-grill-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-angus-teriyaki-grill-xl-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-angus-teriyaki-grill-xl-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-mozarella-king-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-mozarella-king-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-mozarella-king-xl-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-mozarella-king-xl-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-chicken-burger-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-chicken-burger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-grill-chicken-bbq-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-grill-chicken-bbq-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-cezar-king-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-cezar-king-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-chedder-rodeo-chicken-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-chedder-rodeo-chicken-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-chicken-king-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-chicken-king-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BK-mozarella-chicken-price{
+    width: 250px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    border-radius: 50px;
+    padding-top: 37.5px; 
+}
+
+.BK-mozarella-chicken-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .catalog div{
+    height: 230px;
+    display: flex;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+    padding: 20px;
+    border-radius: 50px;
+    padding: 40px 0px 37.5px 40px;
+}
+
+.catalog div h3{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: #363853; 
+}
+
+.catalog div p{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+} */
+
+.add-to-cart:hover{
+    cursor: pointer;
+}
+
+.add-to-cart{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-MCcheeseburger:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-MCcheeseburger{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-MCcheeseburger h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-MCchickenburger:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-MCchickenburger{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-MCchickenburger h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-KFCshefburgerjunior:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-KFCshefburgerjunior{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-KFCshefburgerjunior h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-KFCcheeseburger:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-KFCcheeseburger{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-KFCcheeseburger h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-BKcheeseburger:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-BKcheeseburger{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-BKcheeseburger h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.add-to-cart-BKwopperjunior:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-BKwopperjunior{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.add-to-cart-BKwopperjunior h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
+.burger-price{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.McDonalds-Cheeseburger-price p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cart{
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 70px;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.cart2{
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 70px;
+    width: 400px;
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 16px;
+    color: #FF7A50;
+}
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.500);
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-modal{
+    width: 60%;
+    height: 80vh;
+    background-color: #efefef;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.header_menu span{
+    font-size: 20px;
+    position: fixed;
+    top: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #363853;
+}
+
+.modal2{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.500);
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-modal2{
+    width: 60%;
+    height: 80vh;
+    background-color: #efefef;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.header_menu2 span{
+    font-size: 20px;
+    position: fixed;
+    top: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #363853;
+}
+
+.none{
+    display: none;
+}
+
+.cheeseburger-image{
+    width: 320px;
+    height: 32  0px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border: 3px solid #FF7A50;
+}
+
+.cheeseburger-image img{
+    margin-top: 40px;
+}
+
+.flex-wrapper2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrapper2 h1{
+    font-size: 40px;
+    margin-right: 150px;
+    color: #FF7A50;
+}
+
+.kDh{
+    margin-left: 20px;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+}
+
+.composition2{
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 420px;
+    margin-top: 20px;
+    border: 3px solid #FF7A50;
+    font-family: 'Rubik', sans-serif;
+}
+
+.composition2-h1{
+    margin-left: 100px;
+    font-weight: lighter;
+}
+
+.composition3-h1{
+    margin-left: 120px;
+    font-weight: lighter;
+}
+
+.discription2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.composition3 p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.composition2 ul, li, p, h1, h3{
+    color: #363853;
+}
+
+.kDh{
+    font-size: 20px;
+}
+
+.calories{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.add-to-cart2{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #FF7A50;
+    width: 400px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.add-to-cart2 h1{
+    color: #FF7A50;
+    font-weight: lighter;
+}
+
+
+.js-first-burger{
+    display: flex;
+    height: 144px;
+}
+
+.registration-form-styles h1, label{
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (max-width: 1920px){
+    .container{
+        max-width: 1400px
+    }
+
+    .container-modal{
+        width: 45%;
+        height: 600px;
+    }
+
+    .header_menu span{
+        top: 165px;
+    }
+}
+
+@media (max-width: 1600px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+
+@media (max-width: 1280px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .prices div{
+       display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .catalog div{
+        max-width: 500px;
+    }
+    
+    .container{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px){
+    .filter{
+        display: none;
+    }
+
+    .catalog div{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px){
+    .catalog div img, p{
+        display: none;
+    }
+
+    .catalog div{
+        max-width: 450px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
