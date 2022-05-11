@@ -5,13 +5,23 @@
 }
 
 body{
-    background-color: #efefef;
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
 }
 
 .navigation{
     display: flex;
     justify-content: space-between;
     line-height: 50px;
+    
+}
+
+.the-best-restaraunts{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #363853;
     
 }
 
@@ -409,7 +419,7 @@ img{
 
 .card{
     background-color: #ffffff;
-    border-radius: 53px 5px;
+    border-radius: 53px;
 }
 
 .card p{
