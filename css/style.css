@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(to top left, powderblue, pink);
+body {
+	background-blend-mode: screen;
+	background:
+		linear-gradient(limegreen, transparent),
+		linear-gradient(90deg, skyblue, transparent),
+		linear-gradient(-90deg, coral, transparent);
 }
+
+
+
+ 
+
 
 .navigation{
     display: flex;
@@ -181,34 +190,112 @@ img{
 .burger{
     width: 208px;
     text-align: center;
+    animation: burger 2s infinite;
+}
+
+.burger:hover{
+    animation: none;
+}
+
+@keyframes burger {
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 .pizza{
     width: 208px;
     height: 238px;
     text-align: center;
+    animation: pizza 2s infinite;
 }
 
-.pizza6{
-    width: 144px;
-    height: 144px;
+.pizza:hover{
+    animation: none;
 }
 
+@keyframes pizza {
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
 
 .sandwich{
     width: 208px;
     text-align: center;
+    animation: sandwich 2s infinite;
+}
+
+.sandwich:hover{
+    animation: none;
+}
+
+@keyframes sandwich {
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 .asian-food{
     width: 208px;
     text-align: center;
+    animation: asian-food 2s infinite;
 }
 
-.dish
-{
+.asian-food:hover{
+    animation: none;
+}
+
+@keyframes asian-food {
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.dish{
+    animation: dish 2s infinite;
     width: 208px;
     text-align: center;
+}
+
+.dish:hover{
+    animation: none;
+}
+
+@keyframes dish {
+    0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 .category{
@@ -370,7 +457,7 @@ img{
 }
 
 
-.colortext1{
+.restaraunt-word-style{
     color:#FF7A50;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
@@ -379,7 +466,7 @@ img{
     line-height: 43px;
 }
 
-.topfood{
+.best-word-style{
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -391,6 +478,7 @@ img{
 
 .best-restoraunt{
     margin: 50px 0px 50px 0px;
+    
 }
 
 .container{
