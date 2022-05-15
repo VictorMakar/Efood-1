@@ -5,14 +5,23 @@
 }
 
 body {
-	background-blend-mode: screen;
-	background:
-		linear-gradient(limegreen, transparent),
-		linear-gradient(90deg, skyblue, transparent),
-		linear-gradient(-90deg, coral, transparent);
+	background: linear-gradient(90deg, #3ecca7, #5fd6d7, #e88fe1, #c1e35a);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	transform: translate3d(0, 0, 0);
 }
-
-
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
  
 
@@ -80,6 +89,8 @@ header{
     line-height: 21px;
     text-decoration: none;
 }
+
+
 
 .efood{
     color: #363853;
@@ -491,6 +502,15 @@ img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.flex-wrapper div p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    color: #363853;
 }
 
 .time{
