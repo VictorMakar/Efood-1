@@ -30,8 +30,8 @@ img{
     max-width: 100%;
 }
 
-body{
-    background-color: #efefef;
+body {
+	background: linear-gradient(90deg, #f598a8, #f6edb2);
 }
 
 

@@ -40,10 +40,14 @@ img{
 }
 
 
-body {
-	background: linear-gradient(135deg, rgba(108,188,99, 0.25) 25%, rgba(108,188,99, 0.34) 25%, rgba(108,188,99, 0.34) 50%, rgba(108,188,99, 0.25) 50%, rgba(108,188,99, 0.25) 75%, rgba(108,188,99, 0.34) 75%);
-	background-color: #fafafa;
-	background-size: 5rem 5rem;
+body{
+	background-color: #f3a183;
+	background-image: 
+		linear-gradient(transparent 0px, transparent 49px, rgba(255,255,255, 0.2) 50px, transparent 51px, transparent 99px, rgba(255,255,255, 0.2) 100px), 
+		linear-gradient(120deg, transparent 0, transparent 48px, rgba(255,255,255, 0.2) 49px, transparent 50px, transparent 98px, rgba(255,255,255, 0.2) 99px, transparent 100px), 
+		linear-gradient(60deg, transparent 0, transparent 48px, rgba(255,255,255, 0.2) 49px, transparent 50px, transparent 98px, rgba(255,255,255, 0.2) 99px, transparent 100px), 
+		linear-gradient(90deg, #f3a183, #eC6f66);
+	background-size: 100px 100px, 115px 100px, 115px 100px, auto;
 }
     
 
@@ -94,7 +98,7 @@ header{
 
 .line2{
     border: 1px solid #fff;
-    height: 1600px;
+    height: 16380px;
     position: relative;
     bottom: 21px;
 }
@@ -171,14 +175,14 @@ header h1{
 }
 
 
-.price-ot{
-    border: 3px solid #e84c66;
+.expensive{
+   
     border-radius: 70px;
     width: 70px;
     height: 30px;
 }
 
-.price-ot p{
+.expensive h3{
     margin-top: 4px;
     margin-left: 5px;
     font-family: 'Rubik', sans-serif;
@@ -188,32 +192,32 @@ header h1{
     margin-left: 10px;
 }
 
-.price-do p{
+.cheap h3{
     margin-top: 4px;
     margin-left: 5px;
     font-family: 'Rubik', sans-serif;
 }
 
-.price-do{
-    border: 3px solid #e84c66;
+.cheap{
+   
     border-radius: 70px;
     width: 70px;
     height: 30px;
-    margin-left: 5px;
+    
 }
 
 .price2{
-    display: flex;
+    
     margin-top: 10px;
     padding-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
     position: relative;
     bottom: 20px
 }
 
 .money{
     position: relative;
-    top: 22px;
+    top: 35px;
     right: 80px;
 }
 

@@ -24,6 +24,10 @@ fetch('js/data.json')
 
 const McDonaldsButton = document.querySelector('.mcdonalds')
 
+McDonaldsButton.addEventListener('click',()=>{
+    localStorage.setItem('Burger', 'Cheeseburger');
+})
+
 McDonaldsButton.addEventListener('click', ()=>{
     const BurgersCatalog = document.querySelector('.catalog');
     BurgersCatalog.innerHTML = ''
