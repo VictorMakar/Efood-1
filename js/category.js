@@ -317,6 +317,35 @@ cheapBurgers.addEventListener('click',()=>{
     })
 })
 
+const expensiveBurgers = document.querySelector('.expensive')
+
+expensiveBurgers.addEventListener('click',()=>{
+    const BurgersCatalog = document.querySelector('.catalog');
+    BurgersCatalog.innerHTML = ''
+    data.expensiveBurger.map((item, index)=>{
+        return BurgersCatalog.innerHTML +=
+        `
+        <div class="McDonalds-Cheeseburger">
+        <div class="cheeseburger burger-font-style">
+        <img src="${item.image}" alt="" width="144px" height="144px">
+        <div class="discription">
+            <h2>${item.name}</h2>
+            <p>${item.composition}</p>
+        </div>
+        </div>
+        <div class="McDonalds-Cheeseburger-price">
+            <div class="add-to-cart-MCcheeseburger" onmousedown="return false" onselectstart="return false">
+                <h2>${item.addToCartButton}</h2>
+            </div>
+            <div class="burger-price">
+                <p>${item.burgerPrice}</p>
+            </div>
+        </div>
+    </div>  
+        `
+    })
+})
+
 
 
 
