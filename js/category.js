@@ -348,16 +348,37 @@ expensiveBurgers.addEventListener('click',()=>{
 
 
 
+const discountBurgers = document.querySelector('.discount')
+
+discountBurgers.addEventListener('click',()=>{
+    alert('скидок НЕТ')
+})
+
+
+
+const allVariantsButton = document.querySelector('.all-variants')
+console.log(allVariantsButton);
+
+
+
+allVariantsButton.addEventListener('click',()=>{
+    const modalWindow = document.querySelector('.modal')
+    if(modalWindow.classList.contains('none')){
+        modalWindow.classList.remove('none')
+    }
+})
+
+const closeModalWindow = document.querySelector('.header_menu')
+
+closeModalWindow.addEventListener('click',()=>{
+    const modalWindow = document.querySelector('.modal')
+    modalWindow.classList.add('none') 
+})
+
+
 
 
 });
-
-
-
-
-
-
-
 
 
 
