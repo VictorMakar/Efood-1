@@ -15,6 +15,10 @@ header h1{
     
 }
 
+.garage-logo{
+    border-radius: 50px;
+}
+
 .filter div h3, p{
     color: #363853;
 }
@@ -31,8 +35,8 @@ img{
     max-width: 100%;
 }
 
-body{
-    background-color: #efefef;
+body {
+	background: linear-gradient(90deg, #f3a183, #eC6f66);
 }
 
 
@@ -169,13 +173,18 @@ header h1{
 .price{
     width: 200px;
     margin-top: 40px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     background-color: #fff;
     border-radius: 30px;
     border: 3px solid #FF7A50;
     padding-left: 5px;
+    transition: 1s;
     
+}
+
+.price:hover{
+    transform: scale(1.1);
 }
 
 .price h3{
@@ -183,49 +192,49 @@ header h1{
 }
 
 
-.price-ot{
-    border: 3px solid #FF7A50;
+.expensive{
+   
     border-radius: 70px;
     width: 70px;
     height: 30px;
 }
 
-.price-ot p{
+.expensive h3{
     margin-top: 4px;
     margin-left: 5px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .burger-king{
     margin-left: 10px;
 }
 
-.price-do p{
+.cheap h3{
     margin-top: 4px;
     margin-left: 5px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-.price-do{
-    border: 3px solid #FF7A50;
+.cheap{
+   
     border-radius: 70px;
     width: 70px;
     height: 30px;
-    margin-left: 5px;
+    
 }
 
 .price2{
-    display: flex;
+    
     margin-top: 10px;
     padding-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
     position: relative;
     bottom: 20px
 }
 
 .money{
     position: relative;
-    top: 22px;
+    top: 35px;
     right: 80px;
 }
 

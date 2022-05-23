@@ -1,4 +1,4 @@
-const dedline = '2022-05-13'  
+const dedline = '2022-06-04'  
 function getTimeRemaining(endTime){  
   const t = Date.parse(endTime) - Date.parse(new Date());  
   const days = Math.floor(t/1000/60/60/24);  
@@ -69,3 +69,28 @@ const registration = document.querySelector('.group5')
 registration.addEventListener('click',()=>{
   modalWindow.classList.add('none')
 })
+
+
+
+
+
+
+
+window.onscroll = function() {myFunction()};
+
+
+var header = document.getElementById("myHeader");
+
+
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+

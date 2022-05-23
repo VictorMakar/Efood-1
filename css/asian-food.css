@@ -23,6 +23,10 @@ header h1{
     color: #363853;
 }
 
+.kfc img{
+    border-radius: 50px
+}
+
 
 
 .prices div p{
@@ -40,14 +44,10 @@ img{
 }
 
 
-body{
-	background-color: #f3a183;
-	background-image: 
-		linear-gradient(transparent 0px, transparent 49px, rgba(255,255,255, 0.2) 50px, transparent 51px, transparent 99px, rgba(255,255,255, 0.2) 100px), 
-		linear-gradient(120deg, transparent 0, transparent 48px, rgba(255,255,255, 0.2) 49px, transparent 50px, transparent 98px, rgba(255,255,255, 0.2) 99px, transparent 100px), 
-		linear-gradient(60deg, transparent 0, transparent 48px, rgba(255,255,255, 0.2) 49px, transparent 50px, transparent 98px, rgba(255,255,255, 0.2) 99px, transparent 100px), 
-		linear-gradient(90deg, #f3a183, #eC6f66);
-	background-size: 100px 100px, 115px 100px, 115px 100px, auto;
+body {
+	background: 
+		linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
+		linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
 }
     
 
@@ -66,6 +66,11 @@ body{
 .h3-mcdonalds{
     font-size: 25px;
     margin-top: 18px;
+    margin-left: 9px;
+}
+
+.burger-king img{
+    border-radius: 50px;
 }
 
 .h3-burger-king{
@@ -98,7 +103,7 @@ header{
 
 .line2{
     border: 1px solid #fff;
-    height: 16380px;
+    height: 2000px;
     position: relative;
     bottom: 21px;
 }
@@ -198,9 +203,7 @@ header h1{
     font-family: 'Rubik', sans-serif;
 }
 
-.burger-king{
-    margin-left: 10px;
-}
+
 
 .cheap h3{
     margin-top: 4px;
@@ -403,6 +406,10 @@ header h1{
     height: 230px;
 }
 
+.hamburger img{
+    border-radius: 40px;
+}
+
 .McDonalds-hamburger{
     display: flex;
     width: 950px;
@@ -416,6 +423,10 @@ header h1{
     padding: 40px 0px 30px 40px;
     border-radius: 50px;
     height: 230px;
+}
+
+.bigmac img{
+    border-radius: 40px;
 }
 
 .McDonalds-bigmac{
@@ -433,6 +444,10 @@ header h1{
     height: 230px;
 }
 
+.double-cheeseburger img{
+    border-radius: 40px;
+}
+
 .McDonalds-double-cheeseburger{
     display: flex;
     width: 950px;
@@ -446,6 +461,10 @@ header h1{
     padding: 40px 0px 30px 40px;
     border-radius: 50px;
     height: 230px;
+}
+
+.filet-o-fish img{
+    border-radius: 40px;
 }
 
 .McDonalds-filet-o-fish{
