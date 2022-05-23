@@ -80,6 +80,8 @@ body{
 
 header{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .filter  div  p{
@@ -2290,26 +2292,7 @@ header h1{
     font-size: 50px;
 }
 
-.cart{
-    border: 3px solid orange;
-    text-align: center;
-    border-radius: 70px;
-    width: 200px;
-    margin-left: 25px;
-    padding: 5px;
-    font-size: 12px;
-}
 
-.cart2{
-    border: 3px solid orange;
-    text-align: center;
-    border-radius: 70px;
-    width: 400px;
-    margin-left: 25px;
-    padding: 5px;
-    font-size: 16px;
-    color: #FF7A50;
-}
 
 
 
