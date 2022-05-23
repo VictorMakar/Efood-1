@@ -5,7 +5,11 @@
 }
 
 body{
+
     background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+    background: linear-gradient(to top left, powderblue, pink);
+
 }
 
 .navigation{
@@ -382,19 +386,25 @@ img{
 
 .colortext1{
     color:#FF7A50;
-    display: inline-block;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
+    line-height: 43px;
 }
 
 .topfood{
-    color:#363853;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    margin-top:128px ;
-    margin-bottom: 20px;
+    line-height: 43px;
+    color: #363853;
+
+}
+
+.best-restoraunt{
+    margin: 50px 0px 50px 0px;
 }
 
 .container{
