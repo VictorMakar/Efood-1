@@ -579,3 +579,118 @@ img{
     max-width: 200px;
 }
 
+footer{
+    margin-top: 100px;
+    background-color: #fff;
+    padding-top: 40px;
+}
+
+
+.footer-block{
+    display: grid;
+    grid-template-columns: 200px;
+    text-align: left;
+}
+
+.footer-block h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 18px;
+    color: #363853;
+
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+
+.footer-block a{
+    margin-bottom: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+ 
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.second-footer-block{
+    display: grid;
+    grid-template-columns: 200px;
+    text-align: left;
+}
+
+.second-footer-block h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 18px;
+    color: #363853;
+
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.second-footer-block a{
+    margin-bottom: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.footer-flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-footer-block{
+    display: grid;
+    grid-template-columns: 500px;
+    text-align: left;
+    text-align: center;
+}
+
+.third-footer-block h3{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 18px;
+    color: #FF7A50;
+    border-radius: 12px;
+    
+}
+
+.third-footer-block p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+    border-radius: 12px; 
+}
+
+@media (max-width: 1200px) {
+    .flex-wrapper{
+        max-width: 1000px;
+    }
+
+    .flex-wrapper div{
+        text-align: center;
+    }
+}
+
+
+
