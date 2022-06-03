@@ -195,6 +195,23 @@ beefBurgers.addEventListener('click',()=>{
 })
 
 
+const addToCartButtonCheeseburger = document.querySelector('.add-to-cart-MCcheeseburger')
+console.log(addToCartButtonCheeseburger);
+
+addToCartButtonCheeseburger.addEventListener('click',()=>{
+    const cartCatalog = document.querySelector('.modal1')
+    data.cheeseburger.map((item, index)=>{
+        return cartCatalog.innerHTML += 
+    `
+   
+
+    
+    `
+    })
+    
+})
+
+
 
 
 
@@ -391,34 +408,34 @@ closeModalWindow.addEventListener('click',()=>{
 
 
 
-const addToCartCheeseburger = document.querySelector('.add-to-cart-MCcheeseburger')
-addToCartCheeseburger.addEventListener('click',()=>{
-    
+
+
+const cartButton = document.querySelector('.cart-img')
+const modalWindow1 = document.querySelector('.modal1')
+
+
+cartButton.addEventListener('click',()=>{
+    if(modalWindow1.classList.contains('none1')){
+        modalWindow1.classList.remove('none1')
+        modalWindow1.classList.add('active')
+    }else if(modalWindow1.classList.contains('active')){
+    modalWindow1.classList.add('none1')
+    }
 })
 
 
-const menubtn = document.querySelector('.menu-btn2');
-const menu = document.querySelector('.menu');
-const content = document.querySelector('.content');
-menubtn.onclick = function (){
-  menu.classList.toggle('menu_active')
-  content.classList.toggle('content_active')
-}
+
+
+
+
+
+
+
+
 
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
 
 
 

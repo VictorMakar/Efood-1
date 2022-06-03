@@ -2440,105 +2440,19 @@ header h1{
 
 
 
-.wrapper {
-    position: relative;
-    overflow-x: hidden;
-  }
-  .menu div{
-      margin-top: 30px;
-  }
-  .menu {
-    position: fixed;
-    left: 0;top: 0;
+
+
+.menu div{
+    margin-top: 30px;
+}
+.menu{
+    
     z-index: 99;
     width: 30%;
     height: 100%;
-   
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    transition: 0.5s;
-    transform: translateX(-100%);
+    background: rgb(243, 243, 247);
   }
-  .menu_active {
-    transform: translateX(0%);
-  }
-  .menu-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50%;
-    flex-direction: column;
-  }
-  .menu-list a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 900;
-  }
-  .content {
-    transition: 0.5s;
-    position: relative;
-    z-index: 0;
-  }
-  .content_active {
-    transform: translateX(30%);
-  }
-  .menu-btn2{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 15px;
-    right:0;
-    width: 60px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-  }
-   
-  .menu-btn2 > span,
-  .menu-btn2 > span::before,
-  .menu-btn2 > span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: #333;
-    transition-duration: .25s;
-  }
-  .menu-btn2 > span::before {
-    content: '';
-    top: -15px;
-  }
-  .menu-btn2 > span::after {
-    content: '';
-    top: 15px;
-  }
-  #menu-toggle:checked ~ .menu-btn2 > span{
-    transform: rotate(45deg);
-  }
-  #menu-toggle:checked ~ .menu-btn2 > span::before{
-    top: 0;
-    transform: rotate(0);
-  }
-  #menu-toggle:checked ~ .menu-btn2 > span::after{
-    top: 0;
-    transform: rotate(90deg);
-  }
-  #menu-toggle:checked ~ .menubox{
-    visibility: visible;
-    left: 0;
-  }
-
-  #menu-toggle{
-      opacity: 0;
-  }
-
-  .menu-btn2{
-      position: fixed;
-  }
-
-
-
+ 
 
 
 
@@ -2631,3 +2545,156 @@ header h1{
 
 
 
+
+
+
+.img-name-composition{
+    background-color: #fff;
+}
+
+
+
+
+
+.container-cart{
+    width: 445px;
+    margin: auto;
+    
+}
+
+.top-part{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+ .burger-text h3{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: #363853;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+.burger-text p{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    width: 350px;
+    
+} 
+
+.line5{
+    border: 1px solid rgb(228, 43, 43);
+    margin-bottom: 20px;
+    width: 425px;
+}
+
+
+
+.amount{
+    position: relative;
+    width: 96px;
+    height: 32px;
+    display: flex;
+    background-color: rgb(243, 243, 247);
+    box-sizing: border-box;
+    border-radius: 9999px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.plus-button{
+    margin: 0px;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    height: 100%;
+    padding: 0px 8px;
+    width: 35.41%;
+    border: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.minus-button{
+    margin: 0px;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    height: 100%;
+    padding: 0px 8px;
+    width: 35.41%;
+    border: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.price-amount{
+    display: flex;
+    justify-content: space-between;
+    width: 425px;
+}
+
+
+.active{
+
+}
+
+
+
+.modal1{ 
+    /* position: fixed; 
+    width: 961px;
+    bottom: 470px; */
+
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 30%;
+    height: 100%;
+    background-color: rgb(243, 243, 247);
+} 
+ 
+
+
+.cheeseburger-cart{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    
+}
+
+.cheeseburger-cart-style{
+    width: 440px;
+    margin: auto;
+    display: flex;
+
+}
+
+
+
+
+.none1{
+    display: none;
+}
+
+.container-cart{
+    width: 500px;
+    margin: auto;
+}
+
+.container-cart div{
+    margin-top: 30px;
+}

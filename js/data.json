@@ -1502,7 +1502,12 @@
    ],
 
    "cheeseburger":[
-      
+      {
+         "image":"./img/cheeseburger.jpg",
+         "name":"Чизбургер (McDonalds)",
+         "composition":"Бифштекс из говядины",
+         "price": "2.5р."
+      }
    ]
 
 
