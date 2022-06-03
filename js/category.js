@@ -204,7 +204,19 @@ addToCartButtonCheeseburger.addEventListener('click',()=>{
         return cartCatalog.innerHTML += 
     `
    
-
+    <div class="container-cart">
+            <div class="cheeseburger-cart">
+                <div class="cheeseburger-cart-style">
+                <div class="burger-cart-img">
+                <img src="${item.image}" alt="" width="150px" he>
+            </div>
+            <div class="burger-text">
+                <h3>${item.name}</h3>
+                <p>${item.burgerPrice}</p>
+            </div>
+                </div>
+            </div>
+        </div>
     
     `
     })
@@ -213,9 +225,60 @@ addToCartButtonCheeseburger.addEventListener('click',()=>{
 
 
 
+const addToCartButtonChickenburger = document.querySelector('.add-to-cart-MCchickenburger')
+
+addToCartButtonChickenburger.addEventListener('click',()=>{
+    const cartCatalog = document.querySelector('.modal1')
+    data.chickenburger.map((item, index)=>{
+        return cartCatalog.innerHTML += 
+    `
+   
+    <div class="container-cart">
+            <div class="cheeseburger-cart">
+                <div class="cheeseburger-cart-style">
+                <div class="burger-cart-img">
+                <img src="${item.image}" alt="" width="150px" he>
+            </div>
+            <div class="burger-text">
+                <h3>${item.name}</h3>
+                <p>${item.burgerPrice}</p>
+            </div>
+                </div>
+            </div>
+        </div>
+    
+    `
+    })
+    
+})
 
 
+const addToCartButtonHamburger = document.querySelector('.add-to-cart-MChamburger')
 
+
+addToCartButtonHamburger.addEventListener('click',()=>{
+    const cartCatalog = document.querySelector('.modal1')
+    data.hamburger.map((item, index)=>{
+        return cartCatalog.innerHTML += 
+    `
+   
+    <div class="container-cart">
+            <div class="cheeseburger-cart">
+                <div class="cheeseburger-cart-style">
+                <div class="burger-cart-img">
+                <img src="${item.image}" alt="" width="150px" he>
+            </div>
+            <div class="burger-text">
+                <h3>${item.name}</h3>
+                <p>${item.burgerPrice}</p>
+            </div>
+                </div>
+            </div>
+        </div>
+    
+    `
+    })
+})
 
 
 
@@ -421,6 +484,15 @@ cartButton.addEventListener('click',()=>{
     }else if(modalWindow1.classList.contains('active')){
     modalWindow1.classList.add('none1')
     }
+})
+
+
+const cleanCart = document.querySelector('.clean-cart')
+console.log(cleanCart);
+
+cleanCart.addEventListener('click',()=>{
+    modalWindow1.innerHTML = '' 
+    
 })
 
 

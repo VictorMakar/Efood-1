@@ -1505,8 +1505,24 @@
       {
          "image":"./img/cheeseburger.jpg",
          "name":"Чизбургер (McDonalds)",
-         "composition":"Бифштекс из говядины",
-         "price": "2.5р."
+         "burgerPrice": "2.5р."
+      }
+      
+   ],
+
+   "chickenburger":[
+      {
+         "image":"./img/chickenburger.jpg",
+         "name":"Чикенбургер (McDonalds)",
+         "burgerPrice":"от 2.5р."
+      }
+    
+   ],
+   "hamburger":[
+      {
+         "image":"./img/hamburger.jpg",
+         "name":"Гамбургер (McDonalds)",
+         "burgerPrice":"от 2.3р."
       }
    ]
 

@@ -2193,6 +2193,23 @@ header h1{
     color: #363853;
 }
 
+.add-to-cart-MChamburger{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #e84c66;
+    width: 200px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+.add-to-cart-MChamburger h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #363853;
+}
+
 .add-to-cart-KFCshefburgerjunior:hover{
     cursor: pointer;
 }
@@ -2578,11 +2595,17 @@ header h1{
 }
 
 .burger-text p{
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Rubik', sans-serif;
-    width: 350px;
+    color: #363853;
+    margin-left: 20px;
+    margin-top: 15px;
     
 } 
+
+.clean-cart{
+    margin-left: 450px;
+}
 
 .line5{
     border: 1px solid rgb(228, 43, 43);
@@ -2697,4 +2720,16 @@ header h1{
 
 .container-cart div{
     margin-top: 30px;
+}
+
+
+.footer{
+    background-color: #fff;
+    position: relative;
+    top: 780px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: #363853;
+    margin-left: 20px;
+    margin-top: 15px;
 }
