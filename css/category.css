@@ -2440,6 +2440,102 @@ header h1{
 
 
 
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+  }
+  .menu div{
+      margin-top: 30px;
+  }
+  .menu {
+    position: fixed;
+    left: 0;top: 0;
+    z-index: 99;
+    width: 30%;
+    height: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: 0.5s;
+    transform: translateX(-100%);
+  }
+  .menu_active {
+    transform: translateX(0%);
+  }
+  .menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+  }
+  .menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .content {
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+  }
+  .content_active {
+    transform: translateX(30%);
+  }
+  .menu-btn2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right:0;
+    width: 60px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+   
+  .menu-btn2 > span,
+  .menu-btn2 > span::before,
+  .menu-btn2 > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition-duration: .25s;
+  }
+  .menu-btn2 > span::before {
+    content: '';
+    top: -15px;
+  }
+  .menu-btn2 > span::after {
+    content: '';
+    top: 15px;
+  }
+  #menu-toggle:checked ~ .menu-btn2 > span{
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn2 > span::before{
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu-toggle:checked ~ .menu-btn2 > span::after{
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu-toggle:checked ~ .menubox{
+    visibility: visible;
+    left: 0;
+  }
+
+  #menu-toggle{
+      opacity: 0;
+  }
+
+  .menu-btn2{
+      position: fixed;
+  }
 
 
 
@@ -2471,9 +2567,6 @@ header h1{
 
 
 
-.none1{
-    display: none;
-}
 
 @media (max-width: 1920px){
     .container{
