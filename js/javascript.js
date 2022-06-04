@@ -1,4 +1,4 @@
-const dedline = '2022-06-04'  
+const dedline = '2022-06-07'  
 function getTimeRemaining(endTime){  
   const t = Date.parse(endTime) - Date.parse(new Date());  
   const days = Math.floor(t/1000/60/60/24);  
